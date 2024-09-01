@@ -1,0 +1,29 @@
+networks:
+  proxy:
+    external: true
+    name: proxy-net
+  database:
+    external: true
+    name: mariadb-net
+
+services:
+  wordpress:
+    image: wordpress
+    container_name: lesfarges-lan
+    restart: unless-stopped
+    networks:
+      - proxy
+      - database
+    environment:
+      WORDPRESS_DB_HOST: mariadb
+      WORDPRESS_DB_USER: wp_user
+      WORDPRESS_DB_PASSWORD: wp_user_passwd
+      WORDPRESS_DB_NAME: lesfarges_lan
+      TZ: "Europe/Paris"
+    volumes: 
+      - ./data:/var/www/html
+    command: >
+      bash -c "usermod -u 1000 www-data &&
+              groupmod -g 1000 www-data &&
+              chown -R www-data:www-data /var/www/html &&
+              docker-entrypoint.sh apache2-foreground"

@@ -1,0 +1,65 @@
+/* 
+Theme Name: Theme de base - 2024
+Author: La Fabrique Info
+Description: Thème de base
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lfi-2024
+*/
+
+:root {
+    scroll-behavior: initial;
+}
+html {
+    min-height: 100%;
+    position: relative;
+}
+.navbar-nav .menu-item {
+    white-space: nowrap;
+}
+footer.stick-to-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 4rem;
+}
+.bg {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-contain {
+    background-size: contain;
+}
+.bg-cover {
+    background-size: cover;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+nav .navbar-brand .custom-logo img {
+    height: 4rem;
+}
+.aligncenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-block-columns{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wp-block-button__link{
+    word-break: normal;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}

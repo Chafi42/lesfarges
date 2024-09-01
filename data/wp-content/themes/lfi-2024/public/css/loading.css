@@ -1,0 +1,83 @@
+/*LOADER*/
+.lfi-loader {
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.loader-body {
+    height: 100vh;
+    visibility: visible;
+    position: fixed;
+    background-color: #dbdbdb;
+}
+.loader-mini {
+    position: absolute;
+    height: 100%;
+    opacity: 0.8;
+}
+.loader {
+    width: 3rem;
+    height: 3rem;
+    border-color: white;
+    border-width: 0.3rem;
+    border-top-color: grey;
+}
+.lb-loader .lb-cancel, .loader{
+    border-radius: 50%;
+    border-style: solid;
+    position: absolute;
+    background-image: none;
+    animation: 1.7s spin infinite linear;
+    -webkit-animation: 1.7s spin infinite linear;
+    -o-animation: 1.7s spin infinite linear;
+}
+
+.lfi-loader .loader::before{
+    display: none;
+}
+
+.loader-body.done {
+    visibility: hidden;
+    opacity: 0;
+}
+.wpcf7 form.submitting .loader-body{
+    visibility: visible;
+    opacity: 1;
+    background-color: transparent;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
+
+/* Loader Lightbox */
+.lb-loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 37.5%;
+}
+
+
+/* Contact Form 7 - ajax-loader */

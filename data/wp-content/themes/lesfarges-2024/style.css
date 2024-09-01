@@ -1,0 +1,202 @@
+/*
+ Theme Name:   Les Farges - 2024
+ Description:  Theme enfant de lfi-2024
+ Author:       La Fabrique Info
+ Template:     lfi-2024
+ Version:      1.0.0
+ Text Domain:  lfg_2024
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.font-josefin {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  font-weight: 200;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.wp-block-group.is-layout-flex p {
+  width: 100%;
+}
+
+body .is-layout-flex > p {
+  margin-bottom: 1rem;
+}
+body .is-layout-flex > p:last-of-type {
+  margin-bottom: 0;
+}
+
+.wp-block-cover.is-style-contain,
+.wp-block-cover.is-style-cover {
+  width: 100%;
+}
+.wp-block-cover.is-style-contain img {
+  object-fit: contain;
+  width: auto;
+  margin: 0 auto;
+}
+.wp-block-cover.is-style-cover img {
+  /* object-fit: contain; */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wpcf7-submit {
+  margin-left: 75%;
+}
+
+body.home .carousel-indicators [data-bs-target] {
+  border-radius: 100%;
+  width: 0.85rem;
+  height: 0.85rem;
+  margin: 0 2%;
+}
+
+body.page[data-bs-target] {
+  background-color: red;
+}
+
+body .container > p {
+  margin: 0;
+}
+
+body .container > p:last-of-type {
+  margin-bottom: 0;
+}
+
+#header .logo {
+  position: absolute;
+  top: -75px;
+  left: 5px;
+  height: 120px;
+  width: 120px;
+}
+
+#menu-lesfarges img.logo-menu {
+  width: 8rem;
+}
+
+nav {
+  height: 5rem;
+}
+
+hr.line-info {
+  opacity: 1;
+  margin: 0;
+}
+
+nav .navbar-brand {
+  margin-left: 7.5rem;
+}
+body.home nav .navbar-brand {
+  margin-left: 0rem;
+  height: 100%;
+  padding: 0;
+  /* position: relative; */
+}
+nav .navbar-brand .custom-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+body.home nav .navbar-brand .custom-logo {
+  left: 50%;
+  transform: translateX(-50%);
+  top: -1rem;
+}
+nav .navbar-brand .custom-logo img {
+  height: 7.5rem;
+}
+
+nav .bloginfo {
+  font-size: 0.75rem;
+  letter-spacing: 0.3rem;
+}
+body.home nav .bloginfo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0;
+  width: 100%;
+  line-height: 1;
+}
+
+body.home nav .bloginfo .tagline,
+body.home nav .bloginfo .tagline-2nd {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: auto;
+}
+body.home nav .bloginfo .tagline {
+  padding-right: 3.75rem;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+}
+body.home nav .bloginfo .tagline-2nd {
+  padding-left: 3.75rem;
+}
+
+body.home nav .bloginfo hr.line-info {
+  display: none;
+}
+
+hr.is-style-wide {
+  margin: 0;
+  border-top-width: 0.5rem;
+  opacity: 1;
+}
+
+/* body.home .is-style-rounded {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+body.home .is-style-rounded img {
+  border-radius: 50%;
+  transition: all 0.3s ease;
+} */
+/* .wp-block-group.is-style-hover
+.wp-block-group.is-style-hover:hover figure:first-child {
+  display: none;
+} */
+
+/* body.home .is-style-rounded:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+.wp-block-group.is-style-hover figure {
+  display: none;
+  margin: 0;
+}
+.wp-block-group.is-style-hover figure.show {
+  display: block;
+}
+
+
+/* body .home.title-home {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+ */

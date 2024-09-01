@@ -1,0 +1,10 @@
+.menu-item a svg,
+.menu-item a .menu-icon {
+    width: 1.3rem;
+    height: auto;
+}
+
+.navbar .navbar-nav a.nav-icon:hover,
+.navbar .navbar-nav a.nav-icon.active {
+    border-bottom: none!important;
+}

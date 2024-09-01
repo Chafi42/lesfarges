@@ -1,0 +1,73 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/* General */
+body {
+    font-size: 13px;
+    line-height: 1.4em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+a {
+    color: #2271b1;
+}
+
+.cmb-td span.cmb2-metabox-description {
+    display: block;
+    color: #666;
+    letter-spacing: 0.01em;
+    margin: 0;
+    padding-top: 0.5em;
+    font-size: 13px;
+    line-height: 1.5;
+}
+table.wp-list-table {
+    table-layout: auto;
+}
+table.wp-list-table .shortcode {
+    background-color: #ebebeb;
+    padding: 0.3rem 0.5rem;
+    display: inline-block;
+    border: solid 1px #c7c7c7;
+}
+table.wp-list-table .shortcode p {
+    margin: 0;
+    cursor: pointer;
+}
+table.wp-list-table .slides {
+    display: flex;
+    flex-direction: row;
+}
+table.wp-list-table .slides img {
+    width: 80px;
+    height: auto;
+    padding: 0 0.5rem;
+}
+
+/* Meta-boxes */
+.inline-shortcode {
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: #ebebeb;
+    border: 1px solid darkgrey;
+    cursor: pointer;
+}
+.cmb2-wrap.bootstrap .cmb-field-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cmb2-wrap.bootstrap .cmb-row {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.cmb2-wrap.bootstrap .cmb-repeatable-group .cmb-group-description,
+.cmb2-wrap.bootstrap .cmb-repeatable-grouping {
+    width: 100%;
+}
+.cmb2-wrap.bootstrap .cmb-repeatable-grouping.closed .inside.cmb-field-list {
+    display: none;
+}
+.cmb2-wrap.bootstrap .cmb-type-post-link span.delete {
+    box-sizing: content-box;
+}

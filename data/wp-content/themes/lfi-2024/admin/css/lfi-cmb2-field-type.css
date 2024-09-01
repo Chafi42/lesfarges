@@ -1,0 +1,56 @@
+.cmb-type-post-link span.delete{
+    padding: 0.2rem;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 3px;
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    cursor: pointer;
+}
+.cmb-type-post-link span.delete:hover,
+.cmb-type-post-link span.delete:focus,
+.cmb-type-post-link span.delete:active{
+    background: #f0f0f1;
+    border-color: #0a4b78;
+    color: #0a4b78;
+}
+.cmb-type-post-link span.post-link-value{
+    padding-left: 0.5rem;
+    font-style: italic;
+    color: grey;
+}
+.ui-autocomplete li span.label{
+    font-weight: 700;
+    color: #2271b1;
+}
+.ui-autocomplete li span.value{
+    font-style: italic;
+    font-size: small;
+    color: grey;
+}
+
+/* Menu Items */
+body.nav-menus-php #update-nav-menu .cmb-row{
+    width: 50%;
+    padding-right: 1rem;
+    float: left;
+    box-sizing: border-box;
+}
+body.nav-menus-php #update-nav-menu .cmb-row:nth-of-type(2n){
+    padding-right: 0px;
+}
+body.nav-menus-php #update-nav-menu .cmb2-metabox{
+    font-size: 13px;
+    color: #646970;
+}
+body.nav-menus-php #update-nav-menu .cmb-row.cmb-type-file{
+    text-align: center;
+}
+body.nav-menus-php #update-nav-menu .cmb2-metabox .cmb2-media-status{
+    margin-top: 1rem;
+}
+body.nav-menus-php #update-nav-menu .cmb2-metabox .cmb2-media-status .cmb2-media-item img{
+    width: 3rem !important;
+    height: auto;
+}

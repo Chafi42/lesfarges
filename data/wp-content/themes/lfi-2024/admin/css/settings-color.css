@@ -1,0 +1,65 @@
+/* General */
+.pointer{
+    cursor: pointer;
+}
+
+/* Field : Media */
+.custom-img-container{
+    width: 75px;
+}
+
+/* Field : Icon */
+.iconpicker-component i,
+.iconpicker-component i:before,
+.dropdown-toggle::after{
+    vertical-align: middle;
+}
+
+/* Field: Color */
+button:focus {
+    outline: none;
+}
+
+.color-field .pickr {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 0.2rem;
+    margin-top: -0.2rem;
+}
+
+.color-field .pickr .pcr-button,
+.color-field .add-color span {
+    height: 1.7rem;
+    width: 1.7rem;
+    line-height: 1.7rem;
+    border: 1px solid grey;
+}
+
+.pcr-app button.pcr-active,
+.pcr-app button:focus,
+.pcr-app input.pcr-active,
+.pcr-app input:focus,
+.pickr button.pcr-active,
+.pickr button:focus,
+.pickr input.pcr-active,
+.pickr input:focus {
+    box-shadow: none;
+}
+
+.color-field .pickr .pcr-button:after,
+.pickr .pcr-button:before,
+.pickr .pcr-button {
+    border-radius: 50%;
+}
+
+.color-field .color-name {
+    width: 8.3rem;
+}
+
+.color-field .add-color span {
+    border: dashed 1px;
+    min-height: auto;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}

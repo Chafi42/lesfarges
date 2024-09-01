@@ -1,0 +1,55 @@
+.is-side .postbox-header:first-of-type {
+	border-top: none;
+}
+.is-side #poststuff .cmb2-postbox .postbox-header h2 {
+	font-size: 13px;
+	font-weight: 500;
+	padding-left: 16px;
+}
+.is-side #poststuff .cmb2-postbox.postbox .handle-order-higher,
+.is-side #poststuff .cmb2-postbox.postbox .handle-order-lower {
+	display: none;
+}
+.is-side #poststuff .cmb2-postbox.postbox .handlediv {
+	padding-right: 10px;
+}
+.is-side #poststuff .meta-box-sortables .cmb2-postbox.postbox .toggle-indicator::before {
+	content: "\f343";
+	color: black;
+	font-size: 16px;
+}
+.is-side #poststuff .meta-box-sortables .cmb2-postbox.postbox.closed .handlediv .toggle-indicator::before {
+	content: "\f347";
+}
+
+/* 
+ * CMB2 specials, to-do: find a different to enqueue_style, to be loaded after cmb2.min.css
+ * hooked into 'admin_enqueue_script' instead of 'enqueue_block_editor_assets' which is run before.
+ */
+.is-side #poststuff .meta-box-sortables .cmb2-postbox.postbox .cmb2-metabox {
+	font-size: 11px !important;
+	line-height: 11px !important;
+}
+#side-sortables .cmb2-wrap > .cmb-field-list > .cmb-row,
+.inner-sidebar .cmb2-wrap > .cmb-field-list > .cmb-row {
+	padding: 0.7em 0 !important;
+}
+#side-sortables .cmb-th label,
+.inner-sidebar .cmb-th label {
+	padding-bottom: 0 !important;
+}
+#side-sortables .cmb-th label,
+.inner-sidebar .cmb-th label,
+#side-sortables .cmb-td input,
+.inner-sidebar .cmb-td input {
+	font-size: 11px !important;
+	line-height: 11px !important;
+	font-weight: 500 !important;
+}
+
+.wp-block.wp-block-separator {
+	margin-left: 0;
+}
+.wp-block[data-align="center"] .wp-block-separator {
+    margin-left: auto;
+}

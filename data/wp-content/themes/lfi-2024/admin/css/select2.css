@@ -1,0 +1,11 @@
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    padding-right: 0;
+}
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered:focus,
+.select2-container--default .select2-selection--single:focus {
+    outline: none;
+}
